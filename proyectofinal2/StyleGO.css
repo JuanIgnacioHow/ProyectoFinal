@@ -1,0 +1,194 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.title {
+  font-family: 'Londrina Solid', cursive; }
+
+.infoStock {
+  font-family: 'Poppins', sans-serif; }
+
+.underline {
+  text-decoration: underline; }
+
+.titlepage {
+  padding: 50px 0px 15px 0px; }
+
+.quienesSomos {
+  font-family: 'Poppins', sans-serif; }
+
+footer {
+  font-style: italic; }
+
+/* Seccion de productos(Juegos, accsesorios, reservas) con animaciones y sus valores decada bloque (o div hijo) */
+.divHijo1 {
+  padding: 15px 10px 15px 10px;
+  margin: 5px 5px 5px 5px;
+  border: 2px black solid;
+  justify-content: center;
+  display: flex;
+  display: inline-block;
+  background-color: white;
+  width: 250px;
+  height: 370px;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif; }
+
+.divHijo1:hover {
+  width: 290px;
+  transition: all 2s; }
+
+.divHijo2 {
+  padding: 15px 10px 15px 10px;
+  margin: 5px 5px 5px 5px;
+  justify-content: center;
+  display: flex;
+  display: inline-block;
+  height: 370px;
+  width: 250px;
+  border: black 2px solid;
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif; }
+
+.divHijo2:hover {
+  width: 290px;
+  transition: all 2s; }
+
+.divHijo3 {
+  padding: 15px 10px 15px 10px;
+  margin: 5px 5px 5px 5px;
+  justify-content: center;
+  display: flex;
+  display: inline-block;
+  width: 250px;
+  height: 370px;
+  border: black 2px solid;
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif; }
+
+.divHijo3:hover {
+  width: 290px;
+  transition: all 2s;
+  text-align: center; }
+
+.divHijo4 {
+  padding: 15px 10px 15px 10px;
+  margin: 5px 5px 5px 5px;
+  justify-content: center;
+  display: flex;
+  display: inline-block;
+  height: 370px;
+  width: 250px;
+  border: black 2px solid;
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif; }
+
+.divHijo4:hover {
+  width: 290px;
+  transition: all 2s; }
+
+.img {
+  padding: 5px 5px 5px 5px; }
+
+/* Padres de Juegos, accsesorios y reservas */
+.padreJuegos {
+  display: flex;
+  flex-flow: row wrap; }
+
+.padreAccsesorios {
+  display: flex;
+  flex-flow: row wrap; }
+
+.padreReservas {
+  display: flex;
+  flex-flow: row wrap; }
+
+.carousel-item {
+  max-height: 600px; }
+
+#carouselImg {
+  max-height: 600px; }
+
+.carousel-caption {
+  color: white; }
+
+.algoSalioMal {
+  font-family: 'Poppins', sans-serif; }
+
+.solucionando {
+  font-family: 'Poppins', sans-serif; }
+
+.datoInteresante {
+  color: grey; }
+
+.title2 {
+  font-family: 'Ubuntu', sans-serif; }
+
+.form-control {
+  font-family: 'Noto Sans', sans-serif; }
+
+.iniciarSesion {
+  padding: 50px 400px 50px 400px; }
+
+@media screen and (max-width: 320px) {
+  .padreJuegos {
+    margin: 0px 0px 0px 25px; }
+  .padreAccsesorios {
+    margin: 0px 0px 0px 25px; }
+  .padreReservas {
+    margin: 0px 0px 0px 25px; } }
+
+@media screen and (min-width: 375px) and (max-width: 480px) {
+  .padreJuegos {
+    margin: 0px 0px 0px 70px; }
+  .padreAccsesorios {
+    margin: 0px 0px 0px 70px; }
+  .padreReservas {
+    margin: 0px 0px 0px 70px; } }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .padreJuegos {
+    margin: 0px 0px 0px 110px; }
+  .padreReservas {
+    margin: 0px 0px 0px 110px; }
+  .padreAccsesorios {
+    margin: 0px 0px 0px 110px; } }
+
+@media (min-width: 769px), (max-width: 1024 px) {
+  .padreJuegos {
+    margin: 0px 6px 0px 110px; }
+  .padreAccsesorios {
+    margin: 0px 6px 0px 110px; }
+  .padreReservas {
+    margin: 0px 6px 0px 110px; } }
+
+@media screen and (max-width: 480px) {
+  .iniciarSesion {
+    padding: 50px 25px 50px 25px; } }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .iniciarSesion {
+    padding: 50px 200px 50px 200px; } }
+
+@media (min-width: 769px), (max-width: 1024 px) {
+  .iniciarSesion {
+    padding: 50px 350px 50px 350px; } }
+
+@media (min-width: 1025px), (max-width: 1200 px) {
+  .iniciarSesion {
+    padding: 50px 450px 50px 450px; } }
+
+@media screen and (max-width: 480px) {
+  .errorScreen {
+    padding: 250px 0px 250px 0px; } }
+
+@media screen and (min-width: 481px) and (max-width: 991px) {
+  .errorScreen {
+    padding: 250px 50px 250px 50px; } }
+
+@media screen and (min-width: 992px) and (max-width: 1380px) {
+  .errorScreen {
+    padding: 250px 350px 250px 350px; } }
